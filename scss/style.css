@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+section {
+  padding: 0px 20px;
+}
+section .container {
+  width: 1520px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .header_section {
+  box-sizing: border-box;
+  width: 100%;
+}
+header .header_section .container {
+  padding: 15px 0px;
+}
+header .header_section .container .logo {
+  width: 10%;
+}
+header .header_section .container .menu_holder {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+header .header_section .container .menu_holder .menu {
+  width: 75%;
+}
+header .header_section .container .menu_holder .menu nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .header_section .container .menu_holder .menu nav ul li {
+  margin: 0px 5px;
+}
+header .header_section .container .menu_holder .menu nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+header .header_section .container .menu_holder .menu nav ul li a:hover {
+  border-bottom: 2px solid #13fdab;
+}
+header .header_section .container .menu_holder .cta_btn {
+  width: 20%;
+}
+header .header_section .container .menu_holder .cta_btn button {
+  border: 0;
+  background: none;
+}
+header .header_section .container .menu_holder .cta_btn button a {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+}
+header .header_section .container .menu_holder .cta_btn button a:hover {
+  background-color: #13fdab;
+  color: #000000;
+}
+
+.hero_section {
+  padding: 0;
+  background-color: #FAF7F2;
+  min-height: 80vh;
+}
+.hero_section .container {
+  width: 100%;
+}
+.hero_section .container .hero_heading {
+  width: 50%;
+  padding: 80px;
+  box-sizing: border-box;
+}
+.hero_section .container .hero_heading h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #000000;
+  max-width: 580px;
+}
+.hero_section .container .hero_heading p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  width: 580px;
+  margin: 20px 0px;
+}
+.hero_section .container .hero_heading .btn_holder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.hero_section .container .hero_heading .btn_holder button {
+  border: 0;
+  background: none;
+}
+.hero_section .container .hero_heading .btn_holder button a {
+  text-decoration: none;
+  padding: 12px 24px;
+  display: block;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+}
+.hero_section .container .hero_heading .btn_holder button a:hover {
+  background-color: #13fdab;
+  color: #000000;
+}
+.hero_section .container .hero_heading .btn_holder button:nth-child(2) {
+  border: 0;
+  background: none;
+}
+.hero_section .container .hero_heading .btn_holder button:nth-child(2) a {
+  text-decoration: none;
+  padding: 12px 24px;
+  display: block;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  line-height: 150%;
+}
+.hero_section .container .hero_heading .btn_holder button:nth-child(2) a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.hero_section .container .hero_image {
+  width: 50%;
+}
+.hero_section .container .hero_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.company_logos {
+  padding: 0px 20px;
+  background-color: #FAF7F2;
+}
+.company_logos .container {
+  padding: 80px 20px;
+  flex-direction: column;
+}
+.company_logos .container h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 150%;
+  margin-bottom: 48px;
+}
+.company_logos .container .com_logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.donate_now_section .container {
+  padding: 110px 0px;
+  gap: 80px;
+}
+.donate_now_section .container .dn_image {
+  width: 40%;
+}
+.donate_now_section .container .dn_image img {
+  width: 100%;
+}
+.donate_now_section .container .dn_headings {
+  width: 40%;
+}
+.donate_now_section .container .dn_headings h2 {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.donate_now_section .container .dn_headings p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 30px 0px;
+}
+.donate_now_section .container .dn_headings .btn_holder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.donate_now_section .container .dn_headings .btn_holder button:nth-child(1) {
+  border: 0;
+  background: none;
+}
+.donate_now_section .container .dn_headings .btn_holder button:nth-child(1) a {
+  text-decoration: none;
+  padding: 12px 24px;
+  display: block;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+}
+.donate_now_section .container .dn_headings .btn_holder button:nth-child(1) a:hover {
+  background-color: #13fdab;
+  color: #000000;
+}
+.donate_now_section .container .dn_headings .btn_holder button:nth-child(2) {
+  border: 0;
+  background: none;
+}
+.donate_now_section .container .dn_headings .btn_holder button:nth-child(2) a {
+  text-decoration: none;
+  padding: 12px 24px;
+  display: block;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  line-height: 150%;
+}
+.donate_now_section .container .dn_headings .btn_holder button:nth-child(2) a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.achivements_section .container {
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  padding: 110px 0px;
+}
+.achivements_section .container .ach_headings h2 {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+.achivements_section .container .ach_headings p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 1300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.achivements_section .container .ach_counters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.achivements_section .container .ach_counters .counter {
+  width: 20%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.achivements_section .container .ach_counters .counter h3 {
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+.achivements_section .container .ach_counters .counter p {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.our_mission_section {
+  padding: 0;
+}
+.our_mission_section .container {
+  width: 100%;
+  padding: 110px 64px;
+}
+.our_mission_section .container .our_mission_heading {
+  width: 50%;
+  padding: 80px;
+  box-sizing: border-box;
+}
+.our_mission_section .container .our_mission_heading h2 {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 20px 0px;
+}
+.our_mission_section .container .our_mission_heading p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 20px 0px;
+}
+.our_mission_section .container .our_mission_heading .our_mission_btn a {
+  text-decoration: none;
+  padding: 16px 0px;
+  color: #000000;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  border-radius: 4px;
+  gap: 8px;
+}
+.our_mission_section .container .our_mission_image {
+  width: 50%;
+}
+.our_mission_section .container .our_mission_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */
